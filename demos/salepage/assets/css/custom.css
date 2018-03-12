@@ -1,0 +1,328 @@
+/* Add here all your css styles (customizations) */
+body {
+	font-family: "gothic";
+	color: #1f1f1f;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 2.25em;
+	font-weight: 600;
+	color: #111110;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: 600;
+	color: #111110;
+	line-height: 1.2;
+}
+
+h3 {
+	font-size: 1.8em;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #111110;
+}
+
+h4 {
+	font-size: 1.3em;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+h5 {
+	font-size: 1.5em;
+	line-height: 1.2em;
+}
+
+p {
+	color: #1f1f1f;
+	margin-bottom: 1em;
+}
+
+@media (max-width: 479px) {
+	body {
+		font-size: 16px;
+	}
+	
+	h1 {
+		font-size: 28px;
+	}
+	
+	h2 {
+		font-size: 20px;
+	}
+	
+	h3 {
+		font-size: 24px;
+	}
+	
+	h4 {
+		font-size: 20px;
+	}
+}
+
+.one-page-header {
+	background: rgba(0,0,0,0);
+	margin-bottom: 0;
+}
+
+.one-page-header.top-nav-collapse {
+	background: rgba(0,0,0,0.7);
+	box-shadow: none;
+}
+
+.one-page-header:hover, .one-page-header.top-nav-collapse:hover {
+	background: rgba(0,0,0,0.7);
+}
+
+.one-page-header.top-nav-collapse .navbar-toggle .icon-bar {
+	background: #FFF;
+}
+
+.one-page-header.top-nav-collapse .navbar-brand, .one-page-header.top-nav-collapse .navbar-nav > li > a, .one-page-header.top-nav-collapse .navbar-nav > li > a:before {
+	color: #FFF;
+}
+
+.navbar-toggle {
+	float: left !important;
+}
+
+.menu-container.page-scroll {
+	height: 51px;
+}
+
+.one-page-header .navbar-collapse.collapse {
+	min-height: 100vh;
+}
+
+.one-page-header .menu-container {
+	padding: 0 20px;
+}
+
+.one-page-header .navbar-nav > li > a {
+	font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a::before {
+	content: '';
+}
+
+@media (min-width: 992px) {
+	.one-page-header.navbar {
+		padding: 0;
+	}
+
+	.one-page-header.navbar .navbar-nav {
+		float: none !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.one-page-header .navbar-collapse.collapse {
+		display: none !important;
+	}
+
+	.one-page-header .navbar-collapse.collapse.in {
+		display: block !important;
+	}
+
+	.navbar-toggle {
+		display: block;
+	}
+
+	.navbar-nav > li {
+		float: none;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.one-page-header .menu-container {
+		width: auto !important;
+	}
+}
+
+.color-pink {
+	color: #ff304e;
+}
+
+table.icon-table td {
+	padding: 10px 0;
+}
+
+table.icon-table .icon {
+	float: left;
+	width: 80px;
+	height: 80px;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+a, a:hover {
+	color: #1159ab;
+}
+
+@media (max-width: 479px) {
+	table.icon-table .icon {
+		width: 70px;
+		height: 60px;
+		background-size: 60%;
+	}
+}
+
+section {
+	height: auto;
+	overflow-x: hidden;
+}
+
+.pink-box {
+	background: #ff304e;
+	padding: 2em 0;
+	text-align: center;
+	color: #fff;
+}
+
+.pink-box * {
+	color: #fff;
+}
+
+.container .pink-box {
+	padding: 1.5em 0;
+}
+
+section ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+section ul li {
+	padding-bottom: 0.6em;
+}
+
+.img-responsive {
+	width: 100%;
+}
+
+.pink-arrow {
+	width: 150vw;
+	background-repeat: no-repeat;
+	padding: 18px 45px;
+}
+
+.pink-arrow-left {
+	background-image: url("../imgs/icons/pink-arrow-left.png");
+	background-position: left center;
+}
+
+.pink-arrow .pink-arrow-text {
+	line-height: 49px;
+	font-size: 35px;
+	padding: 11px 0;
+	width: 100%;
+	background: #ff304e;
+	color: #fff;
+	font-weight: 600;
+}
+
+@media (max-width: 679px) {
+	.pink-arrow {
+		padding: 19px 61px;
+	}
+
+	.pink-arrow .pink-arrow-text {
+		padding: 10px 10px 10px 20px;
+	}
+
+	.pink-arrow .pink-arrow-text div {
+		max-width: 70vw;
+		font-size: 25px;
+		line-height: 1.2;
+	}
+}
+
+@media (max-width: 320px) {
+	.pink-arrow {
+		padding: 0 20px;
+	}
+
+	.pink-arrow .pink-arrow-text div {
+		max-width: 70vw;
+		font-size: 25px;
+		line-height: 1.2;
+	}
+}
+
+.pink-border-box {
+	border: 1px solid #ff304e;
+	padding: 20px;
+	font-size: 18px;
+}
+
+.pink-border-box img {
+	max-width: 50%;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 1em;
+}
+
+.yellow-button {
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	font-size: 1.8em;
+	line-height: 1;
+	padding: 0.5em 2em;
+	border-radius: 1.4em;
+	background-color: #ff7e00;
+	border: none;
+	width: 100%;
+}
+
+.yellow-button:hover {
+	color: #1159ab;
+}
+
+@media (max-width: 479px) {
+	.yellow-button {
+		font-size: 1.2em;
+		padding: 1em 2em;
+		border-radius: 2em;
+	}
+}
+
+.black-box {
+	padding: 2em 0;
+	background: #000 url("../imgs/bg/bg3.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+.black-box * {
+	color: #fff;
+}
+
+.pink-box h1:last-child, .pink-box h2:last-child, .pink-box h3:last-child, .pink-box h4:last-child, .black-box p:last-child {
+	margin-bottom: 0;
+}
+
+.pink-box-1 {
+	padding: 0 45px;
+}
+
+.pink-box-1 .box-text {
+	display: inline;
+}
+
+.pink-box-1 span {
+	line-height: 2.4em;
+	padding: 0.4em 0;
+	color: #fff;
+	font-weight: 600;
+	background: rgba(255, 48, 78, 0.9);
+	box-shadow: 45px 0 0 rgba(255, 48, 78, 0.9), -45px 0 0 rgba(255, 48, 78, 0.9);
+	webkit-box-shadow: 45px 0 0 rgba(255, 48, 78, 0.9), -45px 0 0 rgba(255, 48, 78, 0.9);
+	moz-box-shadow: 45px 0 0 rgba(255, 48, 78, 0.9), -45px 0 0 rgba(255, 48, 78, 0.9);
+}

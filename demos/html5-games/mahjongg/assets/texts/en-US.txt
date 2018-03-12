@@ -1,0 +1,63 @@
+gameTitle                               = Mahjongg Candy
+menu.buttons.play                      = Play!
+
+game.ui.availableMatch                  = Open Matches
+game.ui.availableMatches                = Open Matches
+game.ui.noMovesPossible                 = No Moves<br />Possible!<br />
+game.ui.timesUp                         = Time's Up!
+
+game.ui.tiles                           = Tiles
+game.ui.remaining                       = Remaining
+
+game.ui.shuffle                         = shuffle
+game.ui.shufflingBoard                  = Shuffling board
+game.ui.timeSeconds                     = seconds
+
+game.ui.loading                         = loading...
+game.ui.multiMatch                      = multi-<br />match!
+
+gameEnd.ui.goodGame                     = Good Game!
+gameEnd.ui.baseScore                    = Score
+gameEnd.ui.timeBonus                    = Time Bonus
+gameEnd.ui.finalScore                   = Final Score
+gameEnd.ui.highScore                    = High Score
+gameEnd.ui.continue                     = continue
+
+options.howToPlay                       = How to Play
+options.quit                            = Quit
+options.sound                           = Sound
+
+help.page1                              = The rules of Mahjongg Candy are simple.<br />And delicious.<br /><br />Click two matching tiles to remove them.<br />Only unblocked tiles can be selected.
+help.page2                              = A tile is unblocked if it has one open<br />right or left edge, and it is not<br />underneath another tile.
+help.page3                              = Each basic match is worth 100 points.<br /><br />Match the Multiplier Tiles (2X and 3X)<br />as early as you can to maximize your<br />score!
+help.page4                              = Match the same tiles again for a<br />Multi-Match bonus!<br /><br />Also, the faster you complete the board,<br />the more Time Bonus you get added<br />to your score!
+
+
+continue                           = Continue
+
+game.ui.timesUp                    = Time's Up!
+game.ui.matches                    = Open Matches
+game.ui.hint                       = Hint
+gameEnd.ui.completeBonus           = & Complete
+game.ui.chainMultiplier            = CHAIN
+helpPopup.howToPlay                = How to play
+helpPopup.scoring                  = Scoring
+helpPopup.howToPlay.box1           = Match same tiles...
+helpPopup.howToPlay.box2           = that are not covered...
+helpPopup.howToPlay.box3           = ...and free from sides.
+helpPopup.howToPlay.box4           = Any special tile can<br />be matched!
+helpPopup.howToPlay.flowerTiles    = Flower<br />Tiles
+helpPopup.howToPlay.seasonTiles    = Season<br />Tiles
+
+helpPopup.scoring.rules            = The score for each match is the suit points multiplied by the number of tiles remaining on the board. Each successive match of the same suit adds a chain multiplier.
+helpPopup.scoring.points           = points
+
+suits.wan                          = Wan
+suits.circle                       = Circle
+suits.bamboo                       = Bamboo
+suits.wind                         = Wind
+suits.dragon                       = Dragon
+suits.flower                       = Flower
+suits.season                       = Season
+
+credits.arkadiumText               = Designed and built by Arkadium:

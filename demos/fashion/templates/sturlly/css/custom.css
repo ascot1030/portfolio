@@ -1,0 +1,107 @@
+@media screen and (min-width:768px) {
+    div.mod-languages ul { 
+    float: left; 
+    padding: 14px 0;
+}
+     
+}
+
+@media screen and (max-width:767px) {
+    div.mod-languages ul {
+    text-align: center;
+    margin-top: -50px;
+}
+     
+}
+.popup-slideshow-style1 .popup-navigation span{
+	position: relative !important;
+}
+.popup-slideshow-style1 .popup-navigation span.nav-prev{
+	    left: 48%;
+}
+.popup-slideshow-style1 .popup-navigation span.nav-next{
+	    left: 48%;
+}
+.popup-slideshow-style1 .popup-navigation span.nav-close{
+	float: right;
+}
+div.mod-languages ul.lang-inline li { 
+    display: inline-flex;
+}
+.white-bg .white-text{
+    color: #373737 !important;
+}
+.post-info .date{display: inline;}
+.blogpost_share ul li a {
+  display: block !important;
+}
+.post-info span{margin-right: 5px;}
+.book-a-table{text-transform: inherit !important;}
+.skills .progress-bar-main h6{
+    width: 70%;
+} 
+.violet .description {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+#footer.footer-style3{
+    background: transparent url("../images/footer-bg2.jpg") no-repeat scroll center top / cover;
+}
+@media screen and (max-width:767px) {
+    .service-style2 .service-box{
+        margin-bottom: 1px;
+    }
+     
+}
+@media screen and (max-width:767px) {
+    .navbar-inverse .navbar-nav > li.current > a, #nav > li > a:hover{
+            border-bottom: 2px solid #FFF !important;
+    }
+     
+}
+
+@media screen and (max-width:480px) {
+    .canvas-style3 .chart7 span{
+        top: 30%;
+    }
+     
+}
+.title-style4 .description{
+    display: block;
+}
+section.canvas-style3 .counter-title {
+    font-size: 45px;
+    line-height: 55px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.work-count.work-count-style3 .white-text{
+    color: #FFF !important;
+}
+.drop-down {
+    display: none;
+    background: #000;
+    padding: 10px;
+}
+#nav li:hover .drop-down{display: block;}
+.drop-down > li > a {
+    color: #fff;
+    text-align: center;
+}
+.drop-down > li > a {
+    margin: 10px 23px 10px;
+    font-size: 12px;
+}
+.drop-down > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

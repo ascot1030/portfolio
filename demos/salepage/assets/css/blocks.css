@@ -1,0 +1,355 @@
+/*
+ * Template Name: Unify - Responsive Bootstrap Template
+ * Version: 1.9
+ * Author: @htmlstream
+ * Website: http://htmlstream.com
+ */
+
+/** INTRO **/
+.fullscreenbanner .slide-1 {
+	border-top: 10px solid #e71c3a;
+	text-align: center;
+	background: #ff304e;
+}
+
+.rs-caption-1 {
+	border: none !important;
+	font-weight: 600;
+}
+
+.rs-caption-1 strong {
+	display: block;
+	font-size: 1.2em;
+}
+
+.rs-caption-1:before, .rs-caption-1:after {
+	content: none;
+}
+
+.rs-caption-2 {
+	text-align: left;
+}
+
+.rs-caption-2 p {
+	color: #fff !important;
+	font-size: 1.7em;
+	line-height: 1.5em;
+}
+
+.rs-caption-2:after {
+	display: none;
+}
+
+.intro-section .imgshow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 999;
+}
+
+.intro-section .imgshow .container {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	background: rgba(255, 255, 255, 0.5);
+	height: 100%;
+}
+
+@media (max-width: 414px) {
+	.rs-caption-1 {
+		font-size: 1em !important;
+		line-height: 1.4em !important;
+		max-width: 90% !important;
+		white-space: normal !important;
+		margin-top: -5em !important;
+	}
+
+	.rs-caption-2 {
+		top: 50vh !important;
+	}
+
+	.rs-caption-2 p {
+		text-align: left !important;
+		font-size: 20px !important;
+	}
+}
+/** END INTRO **/
+
+/** Hey…It’s Vince. **/
+.hey-its-vince-section .icon-table .icon-1 {
+	background-image: url("../imgs/icons/hey/1.png");
+}
+
+.hey-its-vince-section .icon-table .icon-2 {
+	background-image: url("../imgs/icons/hey/2.png");
+}
+
+.hey-its-vince-section .icon-table .icon-3 {
+	background-image: url("../imgs/icons/hey/3.png");
+}
+
+.hey-its-vince-section .icon-table .icon-4 {
+	background-image: url("../imgs/icons/hey/4.png");
+}
+
+.hey-its-vince-section .icon-table .icon-5 {
+	background-image: url("../imgs/icons/hey/5.png");
+}
+
+.hey-its-vince-section .icon-table .icon-6 {
+	background-image: url("../imgs/icons/hey/6.png");
+}
+
+.hey-its-vince-section .icon-table .icon-7 {
+	background-image: url("../imgs/icons/hey/7.png");
+}
+
+.hey-its-vince-section .icon-table .icon-8 {
+	background-image: url("../imgs/icons/hey/8.png");
+}
+
+.hey-its-vince-section h1 {
+	font-size: }
+
+	.hey-img-blocks {
+	border: solid 1px #ccc;
+	padding: 10px 13px;
+}
+
+.hey-img-blocks > div.hey-img-block {
+	width: 20%;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.hey-img-blocks > div.hey-img-block span {
+	display: block;
+	width: 100%;
+	padding: 45% 0;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.hey-img-blocks table.icon-table .icon {
+	width: 100px;
+}
+
+.hey-img-blocks > div.img-block-1 span {
+	background-image: url("../imgs/blocks/hey/1.jpg");
+}
+
+.hey-img-blocks > div.img-block-2 span {
+	background-image: url("../imgs/blocks/hey/2.jpg");
+}
+
+.hey-img-blocks > div.img-block-3 span {
+	background-image: url("../imgs/blocks/hey/3.jpg");
+}
+
+.hey-img-blocks > div.img-block-4 span {
+	background-image: url("../imgs/blocks/hey/4.jpg");
+}
+
+.hey-img-blocks > div.img-block-5 span {
+	background-image: url("../imgs/blocks/hey/5.jpg");
+}
+
+.hey-img-blocks > div.img-block-6 span {
+	background-image: url("../imgs/blocks/hey/6.jpg");
+}
+
+.hey-img-blocks > div.img-block-7 span {
+	background-image: url("../imgs/blocks/hey/7.jpg");
+}
+
+.hey-img-blocks > div.img-block-8 span {
+	background-image: url("../imgs/blocks/hey/8.jpg");
+}
+
+.hey-img-blocks > div.img-block-9 span {
+	background-image: url("../imgs/blocks/hey/9.jpg");
+}
+
+.hey-img-blocks > div.img-block-10 span {
+	background-image: url("../imgs/blocks/hey/10.jpg");
+}
+
+.hey-img-blocks > div.img-block-11 span {
+	background-image: url("../imgs/blocks/hey/11.jpg");
+}
+
+.hey-img-blocks > div.img-block-12 span {
+	background-image: url("../imgs/blocks/hey/12.jpg");
+}
+
+.hey-img-blocks > div.img-block-13 span {
+	background-image: url("../imgs/blocks/hey/13.jpg");
+}
+
+.hey-img-blocks > div.img-block-14 span {
+	background-image: url("../imgs/blocks/hey/14.jpg");
+}
+
+.hey-img-blocks > div.img-block-15 span {
+	background-image: url("../imgs/blocks/hey/15.jpg");
+}
+
+@media (max-width: 1024px) {
+	.hey-img-blocks > div.hey-img-block {
+		width: 33.33%;
+	}
+}
+
+@media (max-width: 320px) {
+	.hey-img-blocks > div.hey-img-block {
+		width: 100%;
+	}
+}
+/** End Hey…It’s Vince. **/
+
+/** Here’s What You’ll Get… **/
+.heres-what-youll-get, .heres-what-youll-get h3, .heres-what-youll-get p {
+	color: #FFF;
+}
+
+.heres-what-youll-get .parallaxBg {
+	background: url("../imgs/bg/bg2.jpg") center bottom fixed;
+	background-size: cover;
+}
+
+.heres-what-youll-get .parallaxBg .row {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 780px) {
+	.heres-what-youll-get .parallaxBg {
+		background-image: url("../imgs/bg/bg2-1.jpg");
+		/*background-position: left bottom !important;*/
+	}
+	
+	.heres-what-youll-get .parallaxBg .row {
+		background: rgba(0, 0, 0, 0.6);
+	}
+}
+
+@media (max-width: 414px) {
+	.heres-what-youll-get .parallaxBg {
+		background-image: url("../imgs/bg/bg2-2.jpg");
+		background-size: cover;
+		background-position: left bottom;
+		background-repeat: no-repeat;
+		background-attachment: inherit;
+	}
+}
+/*
+@media (max-width: 414px) {
+	.heres-what-youll-get .parallaxBg {
+		background-attachment: inherit;
+	}
+}*/
+
+.heres-what-youll-get .parallaxBg .row .container {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.heres-what-youll-get ul li {
+	font-weight: 600;
+}
+
+.heres-what-youll-get ul li i {
+	font-weight: 200;
+	color: #fff;
+}
+/** The “Dirty Little Fitness Secret” Revealed… **/
+
+/** End The “Dirty Little Fitness Secret” Revealed… **/
+.dirty-little-fitness-secret .icon-table .icon-1 {
+	background-image: url("../imgs/icons/dirty/1.png");
+}
+
+.dirty-little-fitness-secret .icon-table .icon-2 {
+	background-image: url("../imgs/icons/dirty/2.png");
+}
+
+.dirty-little-fitness-secret .icon-table .icon-3 {
+	background-image: url("../imgs/icons/dirty/3.png");
+}
+
+.dirty-little-fitness-secret .icon-table .icon-4 {
+	background-image: url("../imgs/icons/dirty/4.png");
+}
+/** End Here’s What You’ll Get… **/
+
+/** These are the EXACT diet plans I use myself to stay cover model ready. **/
+.exact-diet-plans .icon-table .icon-1 {
+	background-image: url("../imgs/icons/exact/1.png");
+}
+.exact-diet-plans .icon-table .icon-2 {
+	background-image: url("../imgs/icons/exact/2.png");
+}
+.exact-diet-plans .icon-table .icon-3 {
+	background-image: url("../imgs/icons/exact/3.png");
+}
+.exact-diet-plans .icon-table .icon-4 {
+	background-image: url("../imgs/icons/exact/4.png");
+}
+.exact-diet-plans .icon-table .icon-5 {
+	background-image: url("../imgs/icons/exact/5.png");
+}
+
+.exact-diet-plans ul li {
+	padding-bottom: 1.5em;
+}
+/** END These are the EXACT diet plans I use myself to stay cover model ready. **/
+
+/** From Football Failure to Fashion Model… **/
+/** END From Football Failure to Fashion Model… **/
+
+/** Rapid Results Money-Back GUARANTEE **/
+.rapid-results .pink-border-box {
+	padding: 15px 40px;
+}
+
+.rapid-results table.icon-table .icon {
+	width: 40px;
+	height: 40px;
+}
+
+.rapid-results .icon-table .icon-1 {
+	background-image: url("../imgs/icons/rapid/1.png");
+}
+
+@media (max-width: 479px) {
+	.rapid-results .pink-border-box {
+		padding: 15px 10px;
+	}
+	
+	.rapid-results table.icon-table .icon {
+		width: 40px;
+		height: 60px;
+		background-size: 60%;
+	}
+}
+
+.footer-sectoin {
+	border-top: 2px solid #c7c7c7;
+	background: #f0f0f0;  
+	padding: 3.5em 0;
+}
+
+.footer-sectoin a {
+	display: block;
+	margin-top: 0.5em;
+}
+
+.footer-sectoin p {
+	margin-bottom: 2.5em;
+}
+
+/** END Rapid Results Money-Back GUARANTEE **/

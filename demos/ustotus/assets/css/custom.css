@@ -1,0 +1,15 @@
+/* Add here all your css styles (customizations) */
+
+body {
+	/* font-family: "Cinzel Decorative"; */
+}
+
+h2.title-v2,
+.headline-center h2 {
+	text-transform: uppercase;
+}
+
+.tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption {
+	white-space: normal;
+	padding: 0 10vw;
+}
